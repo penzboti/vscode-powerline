@@ -8,41 +8,6 @@
 
 /* airline default "dark" theme */
 body {
-    --powerline-mode-fg: #00005f;
-    --powerline-normal-bg: #dfff00;
-    --powerline-insert-bg: #00dfff;
-    --powerline-replace-bg: #af0000;
-    --powerline-visual-bg: #ffaf00;
-    --powerline-inner-fg: #ffffff;
-    --powerline-inner-bg: #202020;
-    --powerline-inner-bg-hl: #303030;
-    --powerline-second-segment-fg: #ffffff;
-    --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
-    --powerline-separator: #303030;
-    --powerline-vim-command-line: #ffffff;
-    --powerline-mode-weight: bold;
-}
-
-/* Nord */
-div.arcticicestudio-nord-visual-studio-code-themes-nord-color-theme-json footer.statusbar {
-    --powerline-mode-fg: #3b4252;
-    --powerline-normal-bg: #88c0d0;
-    --powerline-insert-bg: #eceff4;
-    --powerline-replace-bg: #a3be8c;
-    --powerline-visual-bg: #8fbcbb;
-    --powerline-inner-fg: #d8dee9;
-    --powerline-inner-bg: #3b4252;
-    --powerline-inner-bg-hl: #4c566a;
-    --powerline-second-segment-fg: #e5e9f0;
-    --powerline-second-segment-bg: rgba(0, 0, 0, 0.6);
-    --powerline-separator: rgba(0, 0, 0, 0.3);
-    --powerline-vim-command-line: #eceff4;
-    --powerline-mode-weight: bold;
-}
-
-/* onedark, onehalf dark */
-div.zhuangtongfa-material-theme-themes-OneDark-Pro-json footer.statusbar,
-div.quandinh-onehalf-dark-themes-onehalf-dark-color-theme-json footer.statusbar {
     --powerline-mode-fg: #282c34;
     --powerline-normal-bg: #98c379;
     --powerline-insert-bg: #61afef;
@@ -58,8 +23,43 @@ div.quandinh-onehalf-dark-themes-onehalf-dark-color-theme-json footer.statusbar 
     --powerline-vim-command-line: #dcdfe4;
 }
 
+/* Nord */
+/* div.arcticicestudio-nord-visual-studio-code-themes-nord-color-theme-json footer.statusbar {
+    --powerline-mode-fg: #3b4252;
+    --powerline-normal-bg: #88c0d0;
+    --powerline-insert-bg: #eceff4;
+    --powerline-replace-bg: #a3be8c;
+    --powerline-visual-bg: #8fbcbb;
+    --powerline-inner-fg: #d8dee9;
+    --powerline-inner-bg: #3b4252;
+    --powerline-inner-bg-hl: #4c566a;
+    --powerline-second-segment-fg: #e5e9f0;
+    --powerline-second-segment-bg: rgba(0, 0, 0, 0.6);
+    --powerline-separator: rgba(0, 0, 0, 0.3);
+    --powerline-vim-command-line: #eceff4;
+    --powerline-mode-weight: bold;
+} */
+
+/* onedark, onehalf dark */
+/* div.zhuangtongfa-material-theme-themes-OneDark-Pro-json footer.statusbar,
+div.quandinh-onehalf-dark-themes-onehalf-dark-color-theme-json footer.statusbar {
+    --powerline-mode-fg: #00005f;
+    --powerline-normal-bg: #dfff00;
+    --powerline-insert-bg: #00dfff;
+    --powerline-replace-bg: #af0000;
+    --powerline-visual-bg: #ffaf00;
+    --powerline-inner-fg: #ffffff;
+    --powerline-inner-bg: #202020;
+    --powerline-inner-bg-hl: #303030;
+    --powerline-second-segment-fg: #ffffff;
+    --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
+    --powerline-separator: #303030;
+    --powerline-vim-command-line: #ffffff;
+    --powerline-mode-weight: bold;
+} */
+
 /* Solarized Dark */
-div.vscode-theme-solarized-dark-themes-solarized-dark-color-theme-json footer.statusbar {
+/* div.vscode-theme-solarized-dark-themes-solarized-dark-color-theme-json footer.statusbar {
     --powerline-inner-fg: #93a1a1;
     --powerline-inner-bg: #073642;
     --powerline-inner-bg-hl: #586e75;
@@ -73,7 +73,7 @@ div.vscode-theme-solarized-dark-themes-solarized-dark-color-theme-json footer.st
     --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
     --powerline-separator: #586e75;
     --powerline-vim-command-line: #eee8d5;
-}
+} */
 
 /* Main styles */
 
@@ -366,7 +366,7 @@ footer.statusbar {
     border-top: solid var(--powerline-inner-bg) 12px;
     border-right: solid transparent 11px;
     border-bottom: solid var(--powerline-inner-bg) 12px;
-    margin-right: -21px;
+    margin-right: -20px;
     z-index: 1;
 }
 
